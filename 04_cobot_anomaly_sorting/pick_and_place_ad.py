@@ -26,7 +26,7 @@ from ultralytics import YOLO
 from camera import RealSenseD435
 
 # YOLO 검출과 ResNet 기반 이상 탐지 기능이 구현된 사용자 정의 모듈
-from test_yolo_copy import (
+from test_AD_window import (
     # 카메라 영상 한 프레임을 기준으로 큐브를 검출하고,
     # 각 큐브의 위치, 깊이, 회전각, 이상 점수, 품질 판정 결과를 반환
     detect_cubes_once,
