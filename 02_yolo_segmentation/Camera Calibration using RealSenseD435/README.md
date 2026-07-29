@@ -13,7 +13,7 @@ Similar to the robot control class (`robot.py`), hardware control algorithms are
 
 ---
 
-## 2. Real-Time RGB-D Image Acquisition & Dataset Collection ([get_images.py](get_images.py))
+## 2. Real-Time RGB-D Image Acquisition & Dataset Collection ([capture.py](capture.py))
 Synchronously accesses the device frame buffer (`wait_for_frames()`) to save high-quality image samples to disk for camera matrix calculation and calibration.
 
 * **NumPy Matrix Conversion & OpenCV Output**: Parses incoming raw data buffers into 2D matrices (`numpy.asanyarray()`) readable by OpenCV (RGB and 16-bit depth matrix) and renders them in real time.
